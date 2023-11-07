@@ -13,7 +13,7 @@ import org.json.simple.parser.ParseException;
 
 public class CurrencyConverter {
     private static final String API_URL = "https://api.apilayer.com/exchangerates_data/latest";
-    private static final String API_KEY = "https://api.exchangerate.host/convert?from=USD&to=EUR"; 
+    private static final String API_KEY = "afbb95f3c0073f5931d14b28816910b0"; 
     private static Map<String, Double> exchangeRates = new HashMap<>();
     private static Map<String, String> favoriteCurrencies = new HashMap<>();
 
